@@ -66,13 +66,17 @@ function validateForm() {
     document.getElementById("email").value = '';
     document.getElementById("message").value = '';
 
+    console.log(`${formData.firstName} | ${formData.email} | ${formData.message}`)
+
   }
 
   else{
     document.getElementById("errorLogs").style.display = 'block';
-    document.getElementById("errorLogs").innerHTML = errorLogs.join(' | ');;
+    document.getElementById("errorLogs").innerHTML = errorLogs.join(' | ');
 
     document.getElementById("successLogs").style.display = 'none';
+    console.log(`${errorLogs}`)
+
 
   }
 
