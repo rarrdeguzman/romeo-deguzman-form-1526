@@ -127,7 +127,7 @@ textarea {
   padding: 10px 0 0 0;
   width: 100%;
   color: green;
-  text-transform: capitalize;
+/*  text-transform: capitalize;*/
   text-align: left;
   flex: 1;
 }
