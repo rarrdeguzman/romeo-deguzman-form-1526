@@ -1,5 +1,3 @@
-
-
 function validateForm() {
   // object/success
   let formData = {};
@@ -17,9 +15,8 @@ function validateForm() {
   // validate fullName
   if(fnameValue === "" || fnameValue.match(/^\s*$/)){
   	errorLogs.push("empty fullname");
-
-
   }
+  
   else{
   	formData.firstName = fnameValue;
     successCount += 1;
